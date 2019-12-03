@@ -1,0 +1,265 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.completo {
+    height: 940px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    background: url(images/bg-top.svg) right top no-repeat, url(images/bg-bottom.svg) left bottom no-repeat;
+    background-color: #EDEDFF;
+}
+
+.texto {
+    height: 5%;
+    text-align: center;
+}
+
+.barra {
+    width: 100%;
+    height: 15%;
+}
+
+.barra1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    padding-top: 30px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.barra2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.barra21 {
+    width: 40%;
+}
+
+.barra22 {
+    width: 20%;
+
+}
+
+.pagination{
+padding-top: 50px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+
+
+}
+
+.page-item{
+
+width: 100%;
+
+text-align: center;
+}
+
+
+
+
+
+
+.barra23 {
+    width: 40%;
+}
+
+#contenedores {
+    display: flex;
+    height: 80%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor1, #contenedor2, #contenedor3 {
+    width: 25%;
+    height: 70%;
+    background-color: #FFFFFF;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.linea1, .linea3, .linea4, .linea5 {
+    border-bottom: 1px #E4E4E4 solid;
+    width: 80%;
+    height: 10%;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    color: #3B3B50;
+}
+
+.linea1 {
+    border-bottom: none;
+    padding-top: 40px;
+}
+
+.linea2 {
+    width: 80%;
+    height: 30%;
+    font-size: 50px;
+    border-bottom: 1px #E4E4E4 solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    color: #15151F;
+}
+
+.linea6 {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#boton {
+    width: 80%;
+    height: 33%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    background-color: white;
+    border: 1px #302F58 solid;
+    color: #403FA8;
+    border-radius: 5px;
+}
+
+/*------------------------------------------------------------------------------
+
+                                        EFECTOR
+
+
+--------------------------------------------------------------------------------*/
+
+#contenedor1:hover {
+    background-color: #5458DA;
+    color: white;
+    height: 80%;
+}
+
+#contenedor2:hover {
+    background-color: #5458DA;
+    color: white;
+    height: 80%;
+}
+
+#contenedor3:hover {
+    background-color: #5458DA;
+    color: white;
+    height: 80%;
+}
+
+div.info {
+    color: white;
+}
+
+#contenedor3:hover div.info {
+    visibility: visible;
+}
+
+#boton:hover {
+    width: 80%;
+    height: 33%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    background-color: #3438C6;
+    border: 1px white solid;
+    color: white;
+    border-radius: 5px;
+}
+
+.linea2:hover {
+    width: 80%;
+    height: 30%;
+    font-size: 50px;
+    border-bottom: 1px #E4E4E4 solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.linea1:hover {
+    width: 80%;
+    height: 10%;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.linea5:hover {
+    border-bottom: 1px #E4E4E4 solid;
+    width: 80%;
+    height: 10%;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.linea3:hover {
+    border-bottom: 1px #E4E4E4 solid;
+    width: 80%;
+    height: 10%;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.linea4:hover {
+    border-bottom: 1px #E4E4E4 solid;
+    width: 80%;
+    height: 10%;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
